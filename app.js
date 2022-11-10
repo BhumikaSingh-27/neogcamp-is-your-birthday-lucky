@@ -28,11 +28,6 @@ function checkBirthdateIsLucky(){
         outputBox.innerText = luckyNumber.value + " is not that lucky 🫤"
 
     }
-    // console.log(dob);
-    // const sum = calculateSum(birthdate);
-    // console.log("dob")
-
-
 }
 
 checkNumberIsLucky.addEventListener("click", checkBirthdateIsLucky);
